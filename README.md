@@ -1,5 +1,4 @@
 # BizCardX
-BizCardX: Extracting Business Card Data with OCR
 
 ### BizCardX: Extracting Business Card Data with OCR
 
@@ -40,7 +39,7 @@ Create SQL queries to view, edit, store, and delete the data. The data was execu
 
 
 # Process
-    First opening the streamlit app I created it will show the homepage contents and there is a sidebar showing Home, Data, Saved Cards.
+First opening the streamlit app I created it will show the homepage contents and there is a sidebar showing Home, Data, Saved Cards.
 I the Data section you can extract the data from the uploaded business card. The there is infinite number of models used to make business cards. The alignments was nott same on every card and the extracted data may be 100% accurate for few type of cards only though we can't optimise the app for every cards all the time so there is an editing section given in the data extraction page. The extracted data can be checked and modified before saving the informaation into the SQL database. 
 
 Then in the saved cards section there is two tabs where you can view in one tab and edit or delete the data in the second tab. Every operations has conducted by python scripting and SQL querries.
