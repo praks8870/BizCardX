@@ -16,6 +16,20 @@ st.set_page_config(page_title="Bizcard Data Extraction",
                    initial_sidebar_state='expanded')
 st.title("BizCardX: Extracting Business Card Data with OCR")
 
+st.markdown("""
+    <style>
+        .stApp {
+            background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700001323.jpg");
+            background-size: cover;
+        }
+
+        [data-testid="stSidebar"] {
+            background-image: url('https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700459179.jpg');
+            background-size: cover;
+        }
+    </style>
+""", unsafe_allow_html = True)
+
 mydb = psycopg2.connect(
     host="localhost",
     database="postgres",
